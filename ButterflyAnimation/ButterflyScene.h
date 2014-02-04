@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface ButterflyScene : ButterflyScene {
-    
-}
+@interface ButterflyScene  : CCScene
+
++ (ButterflyScene *)scene;
+- (id)init;
 
 @end

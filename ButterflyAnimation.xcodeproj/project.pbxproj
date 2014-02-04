@@ -210,12 +210,7 @@
 		5744F48418A06CEF00B3E37A /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5744F48318A06CEF00B3E37A /* LICENSE_Chipmunk.txt */; };
 		5744F48818A06CEF00B3E37A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F48718A06CEF00B3E37A /* main.m */; };
 		5744F48C18A06CEF00B3E37A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F48B18A06CEF00B3E37A /* AppDelegate.m */; };
-		5744F48F18A06CEF00B3E37A /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F48E18A06CEF00B3E37A /* HelloWorldScene.m */; };
 		5744F49218A06CEF00B3E37A /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F49118A06CEF00B3E37A /* IntroScene.m */; };
-		5744F49618A06CEF00B3E37A /* NewtonScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F49518A06CEF00B3E37A /* NewtonScene.m */; };
-		5744F49918A06CEF00B3E37A /* NewtonSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F49818A06CEF00B3E37A /* NewtonSphere.m */; };
-		5744F49C18A06CEF00B3E37A /* LightBulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F49B18A06CEF00B3E37A /* LightBulb.m */; };
-		5744F49F18A06CEF00B3E37A /* Rope.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F49E18A06CEF00B3E37A /* Rope.m */; };
 		5744F4A118A06CEF00B3E37A /* fire.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4A018A06CEF00B3E37A /* fire.plist */; };
 		5744F4A318A06CEF00B3E37A /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4A218A06CEF00B3E37A /* fire.png */; };
 		5744F4A518A06CEF00B3E37A /* newton-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4A418A06CEF00B3E37A /* newton-ipadhd.plist */; };
@@ -224,6 +219,15 @@
 		5744F4AB18A06CEF00B3E37A /* newton-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4AA18A06CEF00B3E37A /* newton-ipad.png */; };
 		5744F4AD18A06CEF00B3E37A /* newton.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4AC18A06CEF00B3E37A /* newton.plist */; };
 		5744F4AF18A06CEF00B3E37A /* newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4AE18A06CEF00B3E37A /* newton.png */; };
+		5744F4BA18A073B400B3E37A /* ButterflyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F4B918A073B400B3E37A /* ButterflyScene.m */; };
+		5744F4BD18A079CE00B3E37A /* Butterfly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744F4BC18A079CE00B3E37A /* Butterfly.m */; };
+		5744F4BF18A07AF700B3E37A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5744F4BE18A07AF700B3E37A /* bg.png */; };
+		57AE65FF18A0AE3C009B7F1A /* RightWing.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE65FD18A0AE3C009B7F1A /* RightWing.png */; };
+		57AE660018A0AE3C009B7F1A /* LeftWing.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE65FE18A0AE3C009B7F1A /* LeftWing.png */; };
+		57AE660518A198C7009B7F1A /* LeftWing1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE660118A198C7009B7F1A /* LeftWing1.png */; };
+		57AE660618A198C7009B7F1A /* LeftWing2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE660218A198C7009B7F1A /* LeftWing2.png */; };
+		57AE660718A198C7009B7F1A /* RightWing1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE660318A198C7009B7F1A /* RightWing1.png */; };
+		57AE660818A198C7009B7F1A /* RightWing2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AE660418A198C7009B7F1A /* RightWing2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -661,19 +665,8 @@
 		5744F48718A06CEF00B3E37A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		5744F48A18A06CEF00B3E37A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		5744F48B18A06CEF00B3E37A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		5744F48D18A06CEF00B3E37A /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		5744F48E18A06CEF00B3E37A /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		5744F49018A06CEF00B3E37A /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		5744F49118A06CEF00B3E37A /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
-		5744F49318A06CEF00B3E37A /* NewtonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonConstants.h; path = Classes/NewtonConstants.h; sourceTree = "<group>"; };
-		5744F49418A06CEF00B3E37A /* NewtonScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonScene.h; path = Classes/NewtonScene.h; sourceTree = "<group>"; };
-		5744F49518A06CEF00B3E37A /* NewtonScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonScene.m; path = Classes/NewtonScene.m; sourceTree = "<group>"; };
-		5744F49718A06CEF00B3E37A /* NewtonSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NewtonSphere.h; path = Classes/NewtonSphere.h; sourceTree = "<group>"; };
-		5744F49818A06CEF00B3E37A /* NewtonSphere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NewtonSphere.m; path = Classes/NewtonSphere.m; sourceTree = "<group>"; };
-		5744F49A18A06CEF00B3E37A /* LightBulb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LightBulb.h; path = Classes/LightBulb.h; sourceTree = "<group>"; };
-		5744F49B18A06CEF00B3E37A /* LightBulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LightBulb.m; path = Classes/LightBulb.m; sourceTree = "<group>"; };
-		5744F49D18A06CEF00B3E37A /* Rope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Rope.h; path = Classes/Rope.h; sourceTree = "<group>"; };
-		5744F49E18A06CEF00B3E37A /* Rope.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Rope.m; path = Classes/Rope.m; sourceTree = "<group>"; };
 		5744F4A018A06CEF00B3E37A /* fire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fire.plist; path = Resources/fire.plist; sourceTree = "<group>"; };
 		5744F4A218A06CEF00B3E37A /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = Resources/fire.png; sourceTree = "<group>"; };
 		5744F4A418A06CEF00B3E37A /* newton-ipadhd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "newton-ipadhd.plist"; path = "Resources/newton-ipadhd.plist"; sourceTree = "<group>"; };
@@ -682,6 +675,17 @@
 		5744F4AA18A06CEF00B3E37A /* newton-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "newton-ipad.png"; path = "Resources/newton-ipad.png"; sourceTree = "<group>"; };
 		5744F4AC18A06CEF00B3E37A /* newton.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = newton.plist; path = Resources/newton.plist; sourceTree = "<group>"; };
 		5744F4AE18A06CEF00B3E37A /* newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newton.png; path = Resources/newton.png; sourceTree = "<group>"; };
+		5744F4B818A073B400B3E37A /* ButterflyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButterflyScene.h; sourceTree = "<group>"; };
+		5744F4B918A073B400B3E37A /* ButterflyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButterflyScene.m; sourceTree = "<group>"; };
+		5744F4BB18A079CE00B3E37A /* Butterfly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Butterfly.h; sourceTree = "<group>"; };
+		5744F4BC18A079CE00B3E37A /* Butterfly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Butterfly.m; sourceTree = "<group>"; };
+		5744F4BE18A07AF700B3E37A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Resources/bg.png; sourceTree = "<group>"; };
+		57AE65FD18A0AE3C009B7F1A /* RightWing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightWing.png; path = Resources/RightWing.png; sourceTree = "<group>"; };
+		57AE65FE18A0AE3C009B7F1A /* LeftWing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftWing.png; path = Resources/LeftWing.png; sourceTree = "<group>"; };
+		57AE660118A198C7009B7F1A /* LeftWing1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftWing1.png; path = Resources/LeftWing1.png; sourceTree = "<group>"; };
+		57AE660218A198C7009B7F1A /* LeftWing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftWing2.png; path = Resources/LeftWing2.png; sourceTree = "<group>"; };
+		57AE660318A198C7009B7F1A /* RightWing1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightWing1.png; path = Resources/RightWing1.png; sourceTree = "<group>"; };
+		57AE660418A198C7009B7F1A /* RightWing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightWing2.png; path = Resources/RightWing2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +757,13 @@
 		5744F1FB18A06CEA00B3E37A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				57AE660118A198C7009B7F1A /* LeftWing1.png */,
+				57AE660218A198C7009B7F1A /* LeftWing2.png */,
+				57AE660318A198C7009B7F1A /* RightWing1.png */,
+				57AE660418A198C7009B7F1A /* RightWing2.png */,
+				57AE65FD18A0AE3C009B7F1A /* RightWing.png */,
+				57AE65FE18A0AE3C009B7F1A /* LeftWing.png */,
+				5744F4BE18A07AF700B3E37A /* bg.png */,
 				5744F1FC18A06CEA00B3E37A /* Default.png */,
 				5744F1FE18A06CEA00B3E37A /* Default@2x.png */,
 				5744F20018A06CEA00B3E37A /* Default-568h@2x.png */,
@@ -1579,19 +1590,12 @@
 			children = (
 				5744F48A18A06CEF00B3E37A /* AppDelegate.h */,
 				5744F48B18A06CEF00B3E37A /* AppDelegate.m */,
-				5744F48D18A06CEF00B3E37A /* HelloWorldScene.h */,
-				5744F48E18A06CEF00B3E37A /* HelloWorldScene.m */,
 				5744F49018A06CEF00B3E37A /* IntroScene.h */,
 				5744F49118A06CEF00B3E37A /* IntroScene.m */,
-				5744F49318A06CEF00B3E37A /* NewtonConstants.h */,
-				5744F49418A06CEF00B3E37A /* NewtonScene.h */,
-				5744F49518A06CEF00B3E37A /* NewtonScene.m */,
-				5744F49718A06CEF00B3E37A /* NewtonSphere.h */,
-				5744F49818A06CEF00B3E37A /* NewtonSphere.m */,
-				5744F49A18A06CEF00B3E37A /* LightBulb.h */,
-				5744F49B18A06CEF00B3E37A /* LightBulb.m */,
-				5744F49D18A06CEF00B3E37A /* Rope.h */,
-				5744F49E18A06CEF00B3E37A /* Rope.m */,
+				5744F4B818A073B400B3E37A /* ButterflyScene.h */,
+				5744F4B918A073B400B3E37A /* ButterflyScene.m */,
+				5744F4BB18A079CE00B3E37A /* Butterfly.h */,
+				5744F4BC18A079CE00B3E37A /* Butterfly.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1664,12 +1668,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AE660818A198C7009B7F1A /* RightWing2.png in Resources */,
 				5744F1FF18A06CEA00B3E37A /* Default@2x.png in Resources */,
 				5744F21218A06CEA00B3E37A /* Icon-120.png in Resources */,
 				5744F41618A06CEE00B3E37A /* LICENSE_CCBReader.txt in Resources */,
+				57AE65FF18A0AE3C009B7F1A /* RightWing.png in Resources */,
+				57AE660618A198C7009B7F1A /* LeftWing2.png in Resources */,
 				5744F4A918A06CEF00B3E37A /* newton-ipad.plist in Resources */,
+				57AE660518A198C7009B7F1A /* LeftWing1.png in Resources */,
 				5744F4A518A06CEF00B3E37A /* newton-ipadhd.plist in Resources */,
 				5744F20818A06CEA00B3E37A /* Icon@2x.png in Resources */,
+				57AE660718A198C7009B7F1A /* RightWing1.png in Resources */,
 				5744F21A18A06CEA00B3E37A /* Icon-Small@2x.png in Resources */,
 				5744F4AD18A06CEF00B3E37A /* newton.plist in Resources */,
 				5744F20C18A06CEA00B3E37A /* Icon-72@2x.png in Resources */,
@@ -1677,6 +1686,7 @@
 				5744F20618A06CEA00B3E37A /* Icon.png in Resources */,
 				5744F21418A06CEA00B3E37A /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				5744F20318A06CEA00B3E37A /* Default-Landscape~ipad.png in Resources */,
+				57AE660018A0AE3C009B7F1A /* LeftWing.png in Resources */,
 				5744F21818A06CEA00B3E37A /* Icon-Small.png in Resources */,
 				5744F21618A06CEA00B3E37A /* Icon-Small-50.png in Resources */,
 				5744F4A118A06CEF00B3E37A /* fire.plist in Resources */,
@@ -1684,6 +1694,7 @@
 				5744F4AB18A06CEF00B3E37A /* newton-ipad.png in Resources */,
 				5744F3FF18A06CEE00B3E37A /* LICENSE_Kazmath.txt in Resources */,
 				5744F20A18A06CEA00B3E37A /* Icon-72.png in Resources */,
+				5744F4BF18A07AF700B3E37A /* bg.png in Resources */,
 				5744F35818A06CED00B3E37A /* LICENSE_cocos2d.txt in Resources */,
 				5744F4A718A06CEF00B3E37A /* newton-ipadhd.png in Resources */,
 				5744F20118A06CEA00B3E37A /* Default-568h@2x.png in Resources */,
@@ -1761,6 +1772,7 @@
 				5744F34718A06CED00B3E37A /* NSThread+performBlock.m in Sources */,
 				5744F2D218A06CEC00B3E37A /* CCShaderCache.m in Sources */,
 				5744F40F18A06CEE00B3E37A /* CCBSequenceProperty.m in Sources */,
+				5744F4BD18A079CE00B3E37A /* Butterfly.m in Sources */,
 				5744F49218A06CEF00B3E37A /* IntroScene.m in Sources */,
 				5744F31618A06CED00B3E37A /* CCGLView.m in Sources */,
 				5744F2D918A06CED00B3E37A /* CCSprite.m in Sources */,
@@ -1772,7 +1784,6 @@
 				5744F36B18A06CED00B3E37A /* OALAudioTrack.m in Sources */,
 				5744F2AE18A06CEC00B3E37A /* CCProgressNode.m in Sources */,
 				5744F2A118A06CEC00B3E37A /* CCPhysicsBody.m in Sources */,
-				5744F49C18A06CEF00B3E37A /* LightBulb.m in Sources */,
 				5744F32618A06CED00B3E37A /* CCWindow.m in Sources */,
 				5744F23B18A06CEB00B3E37A /* CCActionProgressTimer.m in Sources */,
 				5744F3F118A06CEE00B3E37A /* plane.c in Sources */,
@@ -1782,18 +1793,15 @@
 				5744F39B18A06CEE00B3E37A /* OALAudioSession.m in Sources */,
 				5744F41218A06CEE00B3E37A /* CCBLocalizationManager.m in Sources */,
 				5744F2FE18A06CED00B3E37A /* CCTiledMapObjectGroup.m in Sources */,
-				5744F49918A06CEF00B3E37A /* NewtonSphere.m in Sources */,
 				5744F3FB18A06CEE00B3E37A /* vec3.c in Sources */,
 				5744F27E18A06CEB00B3E37A /* CCLayoutBox.m in Sources */,
 				5744F27B18A06CEB00B3E37A /* CCLayout.m in Sources */,
 				5744F39E18A06CEE00B3E37A /* OALSuspendHandler.m in Sources */,
 				5744F3FD18A06CEE00B3E37A /* vec4.c in Sources */,
 				5744F30F18A06CED00B3E37A /* CCDirectorIOS.m in Sources */,
-				5744F49618A06CEF00B3E37A /* NewtonScene.m in Sources */,
 				5744F2E618A06CED00B3E37A /* CCSpriteFrameCache.m in Sources */,
 				5744F3A518A06CEE00B3E37A /* mach_timing.c in Sources */,
 				5744F38918A06CED00B3E37A /* ALListener.m in Sources */,
-				5744F49F18A06CEF00B3E37A /* Rope.m in Sources */,
 				5744F26218A06CEB00B3E37A /* ccFPSImages.m in Sources */,
 				5744F33918A06CED00B3E37A /* ccUtils.c in Sources */,
 				5744F2AA18A06CEC00B3E37A /* CCPhysicsShape.m in Sources */,
@@ -1805,7 +1813,6 @@
 				5744F2D518A06CEC00B3E37A /* ccShaders.m in Sources */,
 				5744F3E918A06CEE00B3E37A /* matrix.c in Sources */,
 				5744F2FB18A06CED00B3E37A /* CCTiledMapLayer.m in Sources */,
-				5744F48F18A06CEF00B3E37A /* HelloWorldScene.m in Sources */,
 				5744F3EF18A06CEE00B3E37A /* neon_matrix_impl.c in Sources */,
 				5744F27418A06CEB00B3E37A /* CCLabelTTF.m in Sources */,
 				5744F32918A06CED00B3E37A /* NSEvent+CC.m in Sources */,
@@ -1845,6 +1852,7 @@
 				5744F2BD18A06CEC00B3E37A /* CCScene.m in Sources */,
 				5744F2EB18A06CED00B3E37A /* CCTexture.m in Sources */,
 				5744F37D18A06CED00B3E37A /* ALCaptureDevice.m in Sources */,
+				5744F4BA18A073B400B3E37A /* ButterflyScene.m in Sources */,
 				5744F2B918A06CEC00B3E37A /* CCResponderManager.m in Sources */,
 				5744F25118A06CEB00B3E37A /* CCConfiguration.m in Sources */,
 				5744F39418A06CEE00B3E37A /* ALWrapper.m in Sources */,
@@ -2045,6 +2053,7 @@
 				5744F4B418A06CEF00B3E37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5744F4B518A06CEF00B3E37A /* Build configuration list for PBXNativeTarget "ButterflyAnimation" */ = {
 			isa = XCConfigurationList;
@@ -2053,6 +2062,7 @@
 				5744F4B718A06CEF00B3E37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
