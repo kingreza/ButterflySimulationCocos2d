@@ -4,7 +4,7 @@ This is an easy to use and easy to implement butterfly simulation. It uses basic
 
 Butterfly movements take place on randomly generated bezier curves. 
 
-Feel free to use it in your game to change it around as you wish.
+Feel free to use it in your game or to change it around as you wish.
 
 If you have any questions drop me a line at reza.shirazian@frontrowsoft.com
 
